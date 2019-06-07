@@ -26,12 +26,20 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-    MyRect.cpp \
-    Bullets.cpp
+    Bullets.cpp \
+    Enemies.cpp \
+    game_widget.cpp \
+    Player.cpp \
+    scores.cpp \
+    health.cpp
 
 HEADERS += \
-    MyRect.h \
-    Bullets.h
+    Bullets.h \
+    Enemies.h \
+    game_widget.h \
+    Player.h \
+    scores.h \
+    health.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

@@ -1,0 +1,10 @@
+release/main.o
+release/Bullets.o
+release/Enemies.o
+release/game_widget.o
+release/Player.o
+release/scores.o
+release/health.o
+release/moc_Bullets.o
+release/moc_Enemies.o
+release/moc_Player.o
